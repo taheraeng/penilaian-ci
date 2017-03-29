@@ -1,0 +1,159 @@
+ html,
+ body,
+ .view {
+ 	height: 100%;
+ 	padding-top:1%;
+ }
+ /* Navigation*/
+
+ .navbar {
+ 	background-color: #212121;
+ }
+
+ .scrolling-navbar {
+ 	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+ 	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+ 	transition: background .5s ease-in-out, padding .5s ease-in-out;
+ }
+
+ .h6, h6 {
+    font-size: 0.6rem;
+}
+
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 100%;
+}
+
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.modal .card-primary {
+    background-color: #19222b;
+    border-color: #19222b;
+}
+ .top-nav-collapse {
+ 	/*background-color: #bd0000;*/
+	 background-color: #111;
+ }
+
+ footer.page-footer {
+ 	background-color: #ec0000;
+ 	margin-top: -1px;
+ }
+/*.navbar.navbar-dark .navbar-nav .nav-item a:hover {
+    color: #eb0000;
+}*/
+ @media only screen and (max-width: 768px) {
+ 	.navbar {
+ 		background-color: #000000;
+ 	}
+
+ 	.scrolling-navbar {
+ 		-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+ 		-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+ 		transition: background .5s ease-in-out, padding .5s ease-in-out;
+ 	}
+
+ 	.top-nav-collapse {
+ 		background-color: #bd0000;
+ 	}
+ }
+ /*Call to action*/
+
+ .flex-center {
+ 	color: #fff;
+ }
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 8px 10px;
+    position: relative;
+    z-index: 0;
+}
+
+ #gede-but {
+ 	width: 260px;
+ 	height: 90px;
+ 	line-height: 70px;
+ 	font-size: 20px;
+ 	font-weight: 400;
+ 	background-color: #ec0000;
+ }
+ #kecil-but {
+ 	width: 110px;
+ 	height: 60px;
+ 	line-height: 35px;
+ 	font-size: 15px;
+ 	font-weight: 400;
+ 	background-color: #ec0000;
+ }
+  #gede-teng {
+ 	
+ 	height: 90px;
+ 	line-height: 55px;
+ 	font-size: 35px;
+ 	font-weight: 400;
+ 	/*background-color: #ec0000;*/
+ }
+ #gede-but:hover {
+ 	color: #333;
+ 	background-color: #544444;
+ 	border-color: #adadad;
+ }
+ #kecil-but:hover {
+ 	color: #333;
+ 	background-color: #544444;
+ 	border-color: #adadad;
+ }
+ .jumbotron {
+ 	background-color: rgba(203, 135, 135, 0.2);
+ 	padding: 3rem;
+ }
+
+ /*by dandi*/
+ .navbar-nav {
+	 padding-top: 27px;
+ }
+
+ .navbar-nav:after {
+	 content: "";
+	 display: block;
+	 clear: both;
+ }
+ .navbar-nav .nav-item.logout-menu {
+	 float: right;
+ }
+
+ .card-primary {
+	 background-color: transparent;
+	 border-color: transparent;
+ }
+ 
+ .card small {
+	 display: block;
+	 font-size: 16px;
+	 line-height: 16px;
+ }
+ .card span {
+	 display: block;
+ }
+ .jumbotron li:after {
+	 content: "";
+	 clear: both;
+	 display: block;
+ }
+ .navbar .navbar-nav .nav-item {
+	 margin: 0 10px;
+ }
+
+ body > .container-fluid {
+	 min-height: 100vh;
+ }
+
+ 

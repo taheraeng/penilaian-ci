@@ -1,0 +1,12 @@
+<?php
+$this->load->view('nilai/Head.php');
+?>
+<?php
+$this->load->view('home/Menu.php');
+?>
+<?php
+$this->load->view('nilai/Isi.php');
+?>
+<?php
+$this->load->view('nilai/Footer.php');
+?>
